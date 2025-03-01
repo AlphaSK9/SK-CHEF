@@ -1,0 +1,30 @@
+# robots.txt for https://www.chefnewcastle.co.uk
+
+# Allow all search engines to crawl the entire site
+User-agent: *
+Disallow:
+
+# Allow Googlebot to access all content
+User-agent: Googlebot
+Disallow:
+
+# Allow Bingbot to access all content
+User-agent: Bingbot
+Disallow:
+
+# Allow specific crawlers to access certain sections of the site
+# Example: Block specific folders or URLs that you don't want crawlers to access
+# Disallow: /private-directory/
+# Disallow: /cart/
+
+# Sitemap location for search engines to easily find and index the site
+Sitemap: https://www.chefnewcastle.co.uk/sitemap.xml
+
+# Crawl delay if necessary (usually only recommended if needed to avoid overloading the server)
+# Crawl-delay: 10
+
+# Specific instructions for other bots (if any)
+User-agent: *
+Disallow: /admin/
+Disallow: /checkout/
+Disallow: /login/
